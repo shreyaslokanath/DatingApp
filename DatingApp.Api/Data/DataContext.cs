@@ -15,5 +15,6 @@ namespace DatingApp.Api.Data
         //the pluralised version of the model which is usually
         //the name of the table in the data base 
         public DbSet<Value> Values{get;set;}
+        public DbSet<User> Users {get; set;}
     }
 }
